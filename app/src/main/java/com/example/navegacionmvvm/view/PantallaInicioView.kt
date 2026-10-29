@@ -89,7 +89,7 @@ fun PantallaInicioView(
 
             if (listaPacientes.isEmpty()) {
                 Text(
-                    text = "Todavía no hay pacientes registrados.",
+                    text = "Todavía no hay pacientes registrados. Usa el formulario de arriba para agregar el primero.",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
